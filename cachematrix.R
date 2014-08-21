@@ -1,5 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Richard Stokotelny 2014-08-20
+##
+## initial comments
+## 
 
 ## Write a short comment describing this function
 
