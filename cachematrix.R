@@ -10,10 +10,9 @@ makeCacheMatrix <- function(x = matrix()) {
   
   # return y as a matrix
   set <- function(y) {
-    a <- matrix(y)
-    l <- length(a)
-    dim(a) <- c(l,l)
-    x <<- a
+    l <- length(y)
+    x <<- matrix(y, ncol = l)
+    print(x)
     m <<- NULL
   }
   
